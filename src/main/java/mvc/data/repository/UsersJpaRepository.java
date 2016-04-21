@@ -1,6 +1,6 @@
-package hello.data.repository;
+package mvc.data.repository;
 
-import hello.data.model.Users;
+import mvc.data.model.Users;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface UsersJpaRepository extends JpaRepository<Users, Long> {

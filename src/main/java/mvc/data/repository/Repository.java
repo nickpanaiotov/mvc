@@ -1,10 +1,10 @@
-package hello.data.repository;
+package mvc.data.repository;
 
 import com.mysema.query.jpa.impl.JPAQuery;
-import hello.data.model.Invoices;
-import hello.data.model.QInvoces;
-import hello.data.model.QUsers;
-import hello.data.model.Users;
+import mvc.data.model.Invoices;
+import mvc.data.model.QInvoces;
+import mvc.data.model.QUsers;
+import mvc.data.model.Users;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 

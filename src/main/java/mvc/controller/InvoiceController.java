@@ -1,9 +1,9 @@
-package hello.controller;
+package mvc.controller;
 
 
-import hello.data.model.Invoices;
-import hello.data.model.Users;
-import hello.data.repository.Repository;
+import mvc.data.model.Invoices;
+import mvc.data.model.Users;
+import mvc.data.repository.Repository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
